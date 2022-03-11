@@ -2,5 +2,5 @@ using NeuralDataScience
 using Test
 
 @testset "NeuralDataScience.jl" begin
-    # Write your tests here.
+    @test f(2,3) == 7
 end

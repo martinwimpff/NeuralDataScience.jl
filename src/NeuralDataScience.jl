@@ -1,5 +1,9 @@
 module NeuralDataScience
 
-# Write your package code here.
+include("helper_file.jl")
+
+f(2,3)
+
+export f
 
 end
